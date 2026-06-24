@@ -10,7 +10,3 @@ function App() {
 }
 
 export default App;
-  bash
-   git add src/App.jsx
-   git commit -m "Add content to App component"
-   git push
