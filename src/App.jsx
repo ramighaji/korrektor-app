@@ -1,3 +1,5 @@
+import React from 'react';
+
 function App() {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px', fontFamily: 'sans-serif' }}>
@@ -8,7 +10,7 @@ function App() {
 }
 
 export default App;
-bash
+  bash
    git add src/App.jsx
    git commit -m "Add content to App component"
    git push
