@@ -1,12 +1,11 @@
-import React from 'react';
-
-function App() {
-  return (
-    import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 // --- İkonlar ---
 const SparklesIcon = ({ className }) => (
-  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.813 15.904L9 21L8.188 15.904L3 15L8.188 14.096L9 9L9.813 14.096L15 15L9.813 15.904Z" strokeLinecap="round" strokeLinejoin="round"/><path d="M19.071 4.929L18.5 8L17.929 4.929L15 4.358L17.929 3.786L18.5 0.714L19.071 3.786L22 4.358L19.071 4.929Z" strokeLinecap="round" strokeLinejoin="round"/></svg>
+  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <path d="M9.813 15.904L9 21L8.188 15.904L3 15L8.188 14.096L9 9L9.813 14.096L15 15L9.813 15.904Z" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M19.071 4.929L18.5 8L17.929 4.929L15 4.358L17.929 3.786L18.5 0.714L19.071 3.786L22 4.358L19.071 4.929Z" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
 );
 
 export default function App() {
@@ -66,7 +65,3 @@ export default function App() {
     </div>
   );
 }
-  );
-}
-
-export default App;
